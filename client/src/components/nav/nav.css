@@ -1,0 +1,54 @@
+.nav-container {
+  padding: 1.5rem 2.5rem 1.5rem 2.5rem;
+  position: fixed;
+  width: 100%;
+  backdrop-filter: blur(15px);
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  text-decoration: none;
+  /* font-size: 25px; */
+  font-size: 1.2vw;
+
+  color: #543939;
+  font-weight: bolder;
+}
+.link1 {
+  padding: 0px 15px 0px 15px;
+}
+
+.title-link {
+  /* font-size: 43px; */
+  font-size: 2.1vw;
+  font-family: "Kumar One", cursive;
+  text-decoration: none;
+  color: #543939;
+  padding-right: 12rem;
+}
+
+.explore {
+  /* font-size: 25px; */
+  font-size: 1.2vw;
+  padding: 5px 15px 5px 15px;
+  color: #b88787;
+  text-decoration: none;
+  font-weight: bolder;
+  border: 2.3px solid #543939;
+  border-radius: 5px;
+}
+
+.explore:hover {
+  color: #472425;
+  transition-duration: 400ms;
+}
+
+/* padding: 25px 50px 75px 100px;
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px */

@@ -1,0 +1,79 @@
+.listed-container {
+  /* background-color: #543939; */
+  background: linear-gradient(#d26a51, #543939 80%);
+  padding-top: 250.2px;
+}
+
+.listed-wrapper-top h1 {
+  text-align: center;
+  font-size: 2.5vw;
+  font-weight: bolder;
+  color: #543939;
+}
+
+.scroll-container {
+  max-width: 78vw;
+  background-color: #342c2c;
+  margin: 0 auto;
+  margin-top: 110px;
+  height: 50vh;
+  overflow: scroll;
+  overflow-x: hidden;
+  border-radius: 15px;
+  border: 1px solid rgb(238, 238, 238);
+}
+
+.logo-img {
+  display: flex;
+  width: 98.9vw;
+}
+
+.copyright-footer {
+  text-align: center;
+  color: #916a6a;
+}
+
+.scroll-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: auto auto auto; */
+  /* grid-template-rows: auto auto; */
+  padding: 30px;
+}
+
+.api-list-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  color: #e89a86;
+  background-color: #543939;
+}
+
+.api-list-wrapper h2 {
+  font-size: 3vw;
+}
+
+.api-list-wrapper h3 {
+  color: rgb(196, 196, 196);
+}
+
+.api-mess-mail-icons {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.3vw;
+  cursor: pointer;
+}
+
+.mess-icon:hover {
+  color: rgb(196, 196, 196);
+}
+
+.mail-icon:hover {
+  color: rgb(196, 196, 196);
+}
+
+/* padding: 25px 50px 75px 100px;
+    top padding is 25px
+    right padding is 50px
+    bottom padding is 75px
+    left padding is 100px */

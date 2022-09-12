@@ -1,0 +1,55 @@
+.rest-api-container {
+  /* background-color: #dcddfd; */
+  padding: 288.2px 95px 235.15px;
+  background: linear-gradient(#f0e9df, #b88787);
+  /* background-color: #f0e9df; */
+}
+
+.rest-api-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.rest-api-titles {
+  font-size: 1.75vw;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 11vh;
+}
+
+.rest-api-title1 {
+  color: #543939;
+  font-size: 7vw;
+  line-height: 13vh;
+}
+.rest-api-para {
+  color: #b88787;
+  font-size: 1.5vw;
+}
+
+.tri-img {
+  width: 35vw;
+}
+
+.arrow-link-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.reserve-link {
+  border-bottom: dashed;
+  text-decoration: none;
+  color: #543939;
+}
+
+.reserve-link:hover {
+  color: #4724257a;
+  transition-duration: 400ms;
+}
+
+.arrow-link {
+  color: #543939;
+}

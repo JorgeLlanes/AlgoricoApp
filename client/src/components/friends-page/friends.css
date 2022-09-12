@@ -1,0 +1,56 @@
+.friends-tab-container {
+  /* background-color: #dcddfd; */
+  padding: 288.2px 95px 327.15px;
+  /* background: linear-gradient(#dcddfd, #f0e9df); */
+  background-color: #ffca4b;
+}
+
+.friends-tab-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.friends-tab-titles {
+  font-size: 1.75vw;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-bottom: 11vh;
+}
+
+.friends-tab-title1 {
+  color: #543939;
+  font-size: 7vw;
+  line-height: 13.9vh;
+}
+.friends-tab-para {
+  color: #1b7e0f;
+  font-size: 1.3vw;
+  font-weight: 100;
+}
+
+.hex-img {
+  width: 35vw;
+}
+
+.arrow-link-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.AddFriends-link {
+  border-bottom: dashed;
+  text-decoration: none;
+  color: #543939;
+}
+
+.AddFriends-link:hover {
+  color: #4724257a;
+  transition-duration: 400ms;
+}
+
+.arrow-link {
+  color: #543939;
+}

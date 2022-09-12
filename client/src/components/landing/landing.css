@@ -1,0 +1,27 @@
+.landing-page-container {
+  background-color: #dcddfd;
+  padding: 288.2px 60px 160.15px;
+}
+.landing-page-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.landing-titles {
+  /* font-size: 40px; */
+  font-size: 1.75vw;
+  width: 45vw;
+  font-weight: bolder;
+}
+
+.salad-img {
+  width: 25vw;
+}
+
+.landing-title1 {
+  color: #543939;
+}
+.landing-title2 {
+  color: #b88787;
+}

@@ -1,0 +1,46 @@
+.rest-footer-container {
+  /* background-color: #543939; */
+  background: linear-gradient(#b88787 1%, #543939 80%);
+  /* padding: 288.2px 95px 160.15px; */
+}
+
+.rf-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 288.2px 95px 160.15px;
+}
+
+.add-friends-heading {
+  color: #f0e9df;
+  font-size: 2.5vw;
+  line-height: 5.9vh;
+  padding-top: 230px;
+}
+
+.dish-img1 {
+  display: flex;
+  width: 13.9vw;
+  margin-top: 235px;
+}
+
+.dish-img2 {
+  display: flex;
+  width: 13.9vw;
+  margin-bottom: 290px;
+}
+
+.logo-img {
+  display: flex;
+  width: 98.9vw;
+}
+
+.copyright-footer {
+  text-align: center;
+  color: #916a6a;
+}
+
+/* padding: 25px 50px 75px 100px;
+  top padding is 25px
+  right padding is 50px
+  bottom padding is 75px
+  left padding is 100px */

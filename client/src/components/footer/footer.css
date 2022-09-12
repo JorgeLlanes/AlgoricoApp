@@ -1,0 +1,107 @@
+.footer-container {
+  /* background-color: #543939; */
+  background: linear-gradient(#f0e9df 1%, #543939 80%);
+}
+.email-media-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 15rem 0px 14rem 0px;
+  font-size: 1.1vw;
+  color: #543939;
+}
+.email-media-wrapper h4 {
+  padding-right: 20px;
+}
+
+.email-media-wrapper a {
+  padding-right: 20px;
+  color: #543939;
+  text-decoration: none;
+}
+.email-media-wrapper a:hover {
+  color: #54393963;
+  transition-duration: 400ms;
+}
+
+.form-container {
+  border-bottom: 3px dashed #543939;
+  width: 30%;
+}
+
+.form-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1vw;
+  padding: 0px 0px 13rem 0px;
+  color: #543939;
+}
+
+.form-heading p {
+  font-size: 1vw;
+  color: #e0ceb6;
+}
+
+.form-group {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.input-email {
+  font-size: 1vw;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 5px;
+  width: 100%;
+  color: #543939;
+  padding-bottom: 5px;
+}
+
+.input-email::placeholder {
+  color: #f0e9df;
+}
+
+.btn {
+  font-size: 1vw;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding-bottom: 5px;
+  color: #543939;
+}
+
+.btn:hover {
+  color: #54393963;
+  transition-duration: 400ms;
+}
+
+/* .footer-wrapper-bottom {
+  display: flex;
+  justify-content: center;
+} */
+
+/* .logo-main-bottom {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 15.5vw;
+  font-family: "Kumar One", cursive;
+} */
+.logo-img {
+  display: flex;
+  width: 98.9vw;
+}
+
+.copyright-footer {
+  text-align: center;
+  color: #916a6a;
+}
+
+/* padding: 25px 50px 75px 100px;
+top padding is 25px
+right padding is 50px
+bottom padding is 75px
+left padding is 100px */

@@ -1,0 +1,47 @@
+.connect-page-container {
+  background-color: #f0e9df;
+  padding: 288.2px 95px 120.15px;
+}
+
+.connect-page-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.connect-titles {
+  font-size: 1.75vw;
+  font-weight: bolder;
+}
+
+.connect-title1 {
+  color: #543939;
+}
+.connect-title2 {
+  color: #b88787;
+}
+
+.connect-img {
+  width: 35vw;
+}
+
+.arrow-link-wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 1.4vw;
+}
+
+.connect-link {
+  border-bottom: dashed;
+  text-decoration: none;
+  color: #543939;
+}
+
+.connect-link:hover {
+  color: #4724257a;
+  transition-duration: 400ms;
+}
+
+.arrow-link {
+  color: #543939;
+}

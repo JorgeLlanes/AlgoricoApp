@@ -1,0 +1,110 @@
+.adding-page-container {
+  background: linear-gradient(#ffca4b 55.22%, #d26a51 100%);
+  padding: 288.2px 95px 450.15px;
+}
+
+.adding-page-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.adding-titles {
+  font-size: 1.75vw;
+  font-weight: bolder;
+}
+
+.adding-title1 {
+  font-size: 3vw;
+  color: #543939;
+}
+.adding-para {
+  color: #1b7e0f;
+  font-size: 1.5vw;
+  width: 35vw;
+}
+
+.adding-form-wrapper {
+  background: linear-gradient(#543939 4%, transparent 83%);
+  padding: 50px 80px 100px;
+  width: 35vw;
+  border-radius: 30px;
+}
+
+.adding-form-wrapper form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.adding-form-wrapper input {
+  /* font-size: 1vw; */
+  /* width: 20vw; */
+  /* height: 4vh; */
+  padding: 0 13px;
+  /* margin-bottom: 15px; */
+  margin-top: 15px;
+  border-radius: 7px;
+  border: none;
+  background-color: #342c2c;
+  color: rgb(238, 238, 238);
+  outline: none;
+}
+.adding-form-wrapper input::placeholder {
+  color: rgb(238, 238, 238);
+}
+
+.age-food {
+  display: flex;
+}
+
+.city-state {
+  display: flex;
+}
+
+.name-input {
+  font-size: 1.1vw;
+  height: 4vh;
+  width: 23vw;
+}
+.age-input {
+  font-size: 1.1vw;
+  height: 4vh;
+  width: 5.5vw;
+}
+.food-input {
+  font-size: 1.1vw;
+  height: 4vh;
+  width: 16.7vw;
+  margin-left: 20px;
+}
+.city-input {
+  font-size: 1.1vw;
+  height: 4vh;
+  width: 12.9vw;
+  margin-right: 20px;
+}
+.select-input {
+  font-size: 1.1vw;
+  height: 4vh;
+  margin-top: 15px;
+  width: 9.5vw;
+  border-radius: 7px;
+  border: none;
+  background-color: #342c2c;
+  outline: none;
+  color: rgb(238, 238, 238);
+}
+
+.btn-form {
+  font-size: 1.3vw;
+  margin-top: 100px;
+  /* border: none; */
+  border: 1px solid #342c2c;
+  padding: 5px 20px;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: #342c2cc6;
+  color: rgb(238, 238, 238);
+}
