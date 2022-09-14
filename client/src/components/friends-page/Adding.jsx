@@ -15,7 +15,7 @@ function Adding() {
 
   const submitForm = (e) => {
     e.preventDefault();
-    Axios.post("http://localhost:3001/api/insert", {
+    Axios.post("https://algorico.herokuapp.com/api/insert", {
       friendName: friendName,
       friendAge: friendAge,
       friendFood: friendFood,

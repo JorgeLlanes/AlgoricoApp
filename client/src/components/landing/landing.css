@@ -25,3 +25,17 @@
 .landing-title2 {
   color: #b88787;
 }
+
+@media (max-width: 470px) {
+  .landing-page-container {
+    padding: 150.2px 60px 160.15px;
+  }
+ 
+}
+
+@media (max-width: 390px) {
+  .salad-img {
+    padding-left: 30px;
+  }
+  
+}

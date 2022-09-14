@@ -11,7 +11,7 @@ function Listed() {
   const [friendList, setFriendList] = useState([]);
 
   useEffect(() => {
-    Axios.get("http://localhost:3001/api/get").then((response) => {
+    Axios.get("https://algorico.herokuapp.com/api/get").then((response) => {
       setFriendList(response.data);
     });
   }, []);

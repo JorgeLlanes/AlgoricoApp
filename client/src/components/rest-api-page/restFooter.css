@@ -44,3 +44,30 @@
   right padding is 50px
   bottom padding is 75px
   left padding is 100px */
+
+@media (max-width: 725px) {
+  .rf-wrapper {
+    padding: 200.2px 95px 160.15px;
+  }
+}
+
+@media (max-width: 590px) {
+  .dish-img1 {
+    display: none;
+  }
+
+  .dish-img2 {
+    display: none;
+  }
+  .add-friends-heading {
+    font-size: 5.5vw;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 470px) {
+  .add-friends-heading {
+    font-size: 8.5vw;
+    padding-top: 20px;
+  }
+}

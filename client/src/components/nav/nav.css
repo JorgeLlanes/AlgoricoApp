@@ -52,3 +52,44 @@ top padding is 25px
 right padding is 50px
 bottom padding is 75px
 left padding is 100px */
+
+@media (max-width: 1536px) {
+}
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+  .title-link {
+    padding-right: 4rem;
+  }
+}
+
+@media (max-width: 940px) {
+}
+
+@media (max-width: 664px) {
+}
+
+@media (max-width: 590px) {
+}
+
+@media (max-width: 470px) {
+}
+
+@media (max-width: 414px) {
+}
+
+@media (max-width: 390px) {
+  .nav-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-link {
+    padding-right: 1px;
+  }
+  .explore {
+    /* font-size: 25px; */
+    font-size: 1vw;
+  }
+}

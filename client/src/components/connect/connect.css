@@ -45,3 +45,22 @@
 .arrow-link {
   color: #543939;
 }
+
+@media (max-width: 664px) {
+  .connect-img {
+    padding-left: 30px;
+  }
+}
+
+@media (max-width: 470px) {
+  .connect-page-container {
+    background-color: #f0e9df;
+    padding: 100.2px 95px 120.15px;
+  }
+}
+
+@media (max-width: 390px) {
+  .connect-img {
+    padding-left: 30px;
+  }
+}

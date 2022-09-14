@@ -3,13 +3,22 @@ const app = express();
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const mysql = require("mysql");
+require("dotenv").config();
+const port = process.env.PORT || 3001;
 
 const db = mysql.createPool({
-  host: "127.0.0.1",
-  user: "Jnrlns",
-  password: "Junior1998Jll!",
-  database: "friends",
+  host: process.env.HOST,
+  user: process.env.USERNAME,
+  password: process.env.PASSWORD,
+  database: process.env.DATABASE,
 });
+
+// const db = mysql.createPool({
+//   host: process.env.HOST,
+//   user: process.env.USERNAME,
+//   password: process.env.PASSWORD,
+//   database: process.env.DATABASE,
+// });
 
 app.use(cors());
 app.use(express.json());
@@ -50,6 +59,6 @@ app.post("/api/insert", (req, res) => {
 //   });
 // });
 
-app.listen(3001, () => {
+app.listen(port, () => {
   console.log("running in port 3001");
 });

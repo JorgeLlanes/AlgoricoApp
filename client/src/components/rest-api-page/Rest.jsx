@@ -29,7 +29,7 @@ function Rest() {
                 smooth={true}
                 offset={50}
                 duration={500}>
-                Soon
+                Search
               </Link>
             </div>
           </div>

@@ -54,3 +54,42 @@
 .arrow-link {
   color: #543939;
 }
+
+@media (max-width: 1536px) {
+}
+
+@media (max-width: 1280px) {
+}
+
+@media (max-width: 1024px) {
+}
+
+@media (max-width: 940px) {
+}
+
+@media (max-width: 725px) {
+  .friends-tab-container {
+    padding: 288.2px 95px 170.15px;
+  }
+  .friends-tab-title1 {
+    line-height: 4.9vh;
+  }
+}
+
+@media (max-width: 664px) {
+}
+
+@media (max-width: 590px) {
+}
+
+@media (max-width: 470px) {
+}
+
+@media (max-width: 414px) {
+  .friends-tab-titles {
+    padding-bottom: 2vh;
+  }
+}
+
+@media (max-width: 390px) {
+}

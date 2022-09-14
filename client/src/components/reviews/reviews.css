@@ -45,3 +45,21 @@
 .arrow-link {
   color: #543939;
 }
+
+@media (max-width: 664px) {
+  .social-img {
+    padding-right: 30px;
+  }
+  .reviews-titles {
+    font-size: 1.75vw;
+  }
+}
+
+@media (max-width: 470px) {
+
+  .reviews-page-container {
+    /* background-color: #dcddfd; */
+    padding: 100.2px 95px 160.15px;
+    background: linear-gradient(#dcddfd, #f0e9df);
+  }
+}

@@ -108,3 +108,54 @@
   background-color: #342c2cc6;
   color: rgb(238, 238, 238);
 }
+
+@media (max-width: 1024px) {
+  .adding-page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .adding-titles {
+    margin-bottom: 80px;
+  }
+}
+
+@media (max-width: 725px) {
+  .adding-form-wrapper {
+    width: 50vw;
+  }
+  .adding-page-container {
+    padding: 100.2px 95px 450.15px;
+  }
+}
+
+@media (max-width: 414px) {
+  .adding-form-wrapper {
+    width: 90vw;
+  }
+  .name-input {
+    width: 70vw;
+  }
+  .age-input {
+    width: 20.5vw;
+  }
+  .food-input {
+    width: 20.7vw;
+  }
+  .city-input {
+    width: 30.9vw;
+  }
+  .select-input {
+    width: 20.5vw;
+  }
+  .adding-title1 {
+    font-size: 6vw;
+  }
+  .adding-para {
+    font-size: 1.5vw;
+  }
+  .adding-page-container {
+    padding: 288.2px 95px 200.15px;
+  }
+}

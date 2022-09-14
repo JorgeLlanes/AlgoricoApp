@@ -105,3 +105,18 @@ top padding is 25px
 right padding is 50px
 bottom padding is 75px
 left padding is 100px */
+
+@media (max-width: 470px) {
+  .email-media-wrapper {
+    padding: 5rem 0px 14rem 0px;
+  }
+}
+
+@media (max-width: 390px) {
+  .email-media-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0px 10rem 0px;
+
+  }
+}
