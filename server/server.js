@@ -13,13 +13,6 @@ const db = mysql.createPool({
   database: process.env.DATABASE,
 });
 
-// const db = mysql.createPool({
-//   host: process.env.HOST,
-//   user: process.env.USERNAME,
-//   password: process.env.PASSWORD,
-//   database: process.env.DATABASE,
-// });
-
 app.use(cors());
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));

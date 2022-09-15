@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import "./restaurants.css";
 import { Link } from "react-router-dom";
 import { FiArrowDownLeft } from "react-icons/fi";
@@ -25,7 +25,7 @@ function Restaurants() {
         </div>
       </section>
     </div>
-  )
+  );
 }
 
-export default Restaurants
+export default Restaurants;
